@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+.replit-ui-theme-root, :root, body, #main-content {
+
+    --font-family-code: 'JetBrains Mono','ReplitHack',monospace !important;
+    
+}

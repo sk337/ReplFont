@@ -1,0 +1,13 @@
+{
+    "name": "ReplFont",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Font Changer for The Replit IDE",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+    {
+        "matches": ["https://replit.com/@*/*"],
+        "css": ["inject.css"]
+    }]
+}
